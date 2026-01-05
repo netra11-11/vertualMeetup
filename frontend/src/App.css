@@ -1,0 +1,30 @@
+.landingContainer{
+    background-color: #c1ccdd;
+    width: 100vw;
+    height: 100vh;
+}
+.landingContainer nav{
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.landingContainer nav h3{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.landingContainer nav .navList{
+  display: flex;
+  gap: 1.6rem;
+  cursor: pointer;
+  
+}
+.landingMainContainer{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 300px);
+}
